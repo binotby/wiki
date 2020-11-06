@@ -1,0 +1,4 @@
+- `sudo apt-get update`
+- `sudo apt-get upgrade`
+- `sudo ufw allow OpenSSH`
+- `sudo ufw enable
