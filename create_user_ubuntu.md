@@ -5,3 +5,4 @@
 - `sudo mkdir /home/albi/.ssh/`  # create .ssh directory
 - `sudo chmod 0700 /home/albi/.ssh/`  # change .ssh directory permission
 - `sudo -- sh -c "echo 'YOURSSHKEY' > /home/albi/.ssh/authorized_keys"`  # create authorized_keys file with public key
+- `PasswordAuthentication no` change in /etc/ssh/sshd_config
