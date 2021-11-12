@@ -1,5 +1,7 @@
 - `sudo adduser albi`  # create new user
 - `sudo usermod -aG sudo albi`  # add user to sudo group
+  - if you got this error `sudo: unable to resolve host localhost.localdomain: Name or service not known`
+  - run this `sudo nano /etc/hosts` and add `127.0.0.1   localhost.localdomain localhost`
 - `sudo mkdir /home/albi/.ssh/`  # create .ssh directory
 - `sudo chmod 0700 /home/albi/.ssh/`  # change .ssh directory permission
 - `sudo -- sh -c "echo 'YOURSSHKEY' > /home/albi/.ssh/authorized_keys"`  # create authorized_keys file with public key
